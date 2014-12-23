@@ -6,6 +6,8 @@ $(document).ready(function () {
 
     var body = document.body; // saving the body in a var
 
+
+
     //loop for making the grid
     for (var i = 0; i < 16; i++) {
 
@@ -19,7 +21,11 @@ $(document).ready(function () {
 
             row.appendChild(cell); //add cell as a child to row
         }
+        var $outMostGrid = document.getElementById("outMostGrid");
 
-        body.appendChild(row); //add row as a child to body
+        $outMostGrid.appendChild(row);
+        //body.appendChild(row); //add row as a child to body
     }
+
+
 });
