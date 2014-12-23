@@ -27,5 +27,9 @@ $(document).ready(function () {
         //body.appendChild(row); //add row as a child to body
     }
 
-
+    $(".cell").hover(function() {
+        $(this).css("background-color", "red");
+    })
 });
+
+
