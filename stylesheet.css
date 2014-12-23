@@ -1,0 +1,17 @@
+.grid {
+    border: dashed;
+    border-color: black;
+    border-radius: 2px;
+    width: 50px;
+    height: 50px;
+}
+.row {
+    margin-left: 25%;
+}
+.cell {
+    border: dashed;
+    border-color: aqua;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
